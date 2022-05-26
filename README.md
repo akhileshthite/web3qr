@@ -1,1 +1,1 @@
-## WebQR
+## Web3QR
