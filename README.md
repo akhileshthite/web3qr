@@ -10,6 +10,7 @@
     <img src="https://img.shields.io/badge/contributions-welcome-orange.svg?" alt="Contributions welcome">
 </div><br>
 
+Web3QR allows you to deploy static websites to [IPFS](https://ipfs.io/) in a single click by using [web3.storage](https://web3.storage/about/). After publishing the website, you'll get a decentralized QR code, IPFS CID, and hosted gateway link.
 
 ## Development
 * Install dependencies
@@ -32,6 +33,8 @@ REACT_APP_WEB3_STORAGE_API_TOKEN=PASTE_YOUR_API_TOKEN
 ```
 npm start
 ```
+
+<img src="https://github.com/akhileshthite/web3qr/blob/main/src/img/ipfs.gif" alt="Love IPFS" />
 
 ## License
 Web3QR is licensed under the [MIT License](https://github.com/akhileshthite/web3qr/blob/main/LICENSE).
