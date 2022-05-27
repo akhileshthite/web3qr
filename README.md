@@ -6,8 +6,8 @@
 
 <div align="center">
     <img src="https://img.shields.io/badge/Platform-IPFS-2C80C1" alt="Platform" />
-<!--     <img src="https://img.shields.io/github/v/release/akhileshthite/web3QR?color=1FC71F" alt="Release version" /> -->
-<!--     <img src="https://img.shields.io/badge/contributions-welcome-orange.svg?" alt="Contributions welcome"> -->
+    <img src="https://img.shields.io/github/v/release/akhileshthite/web3QR?color=1FC71F" alt="Release version" />
+    <img src="https://img.shields.io/badge/contributions-welcome-orange.svg?" alt="Contributions welcome">
 </div><br>
 
 
