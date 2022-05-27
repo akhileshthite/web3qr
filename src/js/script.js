@@ -57,7 +57,7 @@ function uploadCallback(cid, ipfsLink) {
       // an invisible a tag is given that href.
       a.href = qrCodeSrc;
       // filename for the qrcode is set
-      a.download = "dscan_QR.png";
+      a.download = "Web3QR.png";
       document.body.appendChild(a);
       // the a tag is clicked, triggering the download
       a.click();
@@ -66,11 +66,17 @@ function uploadCallback(cid, ipfsLink) {
 }
 
 // Generate decentralized QR code from folder
-$("#folderUpload").on("change", async function () {
+$("#folderUpload").on("change", async function (event) {
   showLoader();
+  // let files = event.target.files;
+  // let folder = [];
+  // for (let i=0; i<files.length; i++) {
+  //   folder.push(files[i].webkitRelativePath);
+  // };
   var folder = document.querySelector("#folderUpload");
-  var files = folder.files;
-  const cid = await client.put(files);
+  var dir = folder.files;
+  console.log(dir);
+  let cid = await client.put(dir);
   let ipfsLink = `https://dweb.link/ipfs/${cid}`;
   hideLoader(function () {
     uploadCallback(cid, ipfsLink);
