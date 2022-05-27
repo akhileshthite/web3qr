@@ -4,6 +4,8 @@
 
 <h1 align="center">Web3QR</h1>
 
+ <p align="center">🌐 <a href="https://web3qr.netlify.app/"></a>https://web3qr.netlify.app/</p>
+
 <div align="center">
     <img src="https://img.shields.io/badge/Platform-IPFS-2C80C1" alt="Platform" />
     <img src="https://img.shields.io/github/v/release/akhileshthite/web3QR?color=1FC71F" alt="Release version" />
